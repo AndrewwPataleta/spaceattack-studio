@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "name": "Default",
+    "style": "station",
+    "version": 1
+  },
+  "plats": [
+    {
+      "id": "plat_gfg7",
+      "x": -16.5,
+      "y": 0,
+      "w": 8,
+      "kind": "ground",
+      "bh": 5.5,
+      "wall": "back_vents",
+      "depth": 7.5
+    },
+    {
+      "id": "plat_de0p",
+      "x": -6.75,
+      "y": 0,
+      "w": 11.5,
+      "kind": "ground",
+      "bh": 5.5,
+      "wall": "back_vents",
+      "depth": 7.5
+    },
+    {
+      "id": "plat_517u",
+      "x": 2.6353756369313057,
+      "y": 0.05001893993138706,
+      "w": 8,
+      "kind": "ground",
+      "bh": 5,
+      "wall": "back_vents",
+      "depth": 5.5,
+      "z": 0
+    },
+    {
+      "id": "plat_3f9b",
+      "x": 3,
+      "y": 3.9,
+      "w": 9,
+      "kind": "mid",
+      "deckTex": "/cosmos/kit/plat_deck.webp",
+      "sideTex": "/cosmos/kit/plat_side.webp",
+      "depth": 5,
+      "z": 0
+    },
+    {
+      "id": "plat_5cql",
+      "x": -6.25,
+      "y": 8.5,
+      "w": 27.5,
+      "kind": "bridge",
+      "depth": 4.5
+    },
+    {
+      "x": 0,
+      "y": 0.20000000000000018,
+      "w": 9,
+      "kind": "bridge",
+      "z": -4,
+      "id": "beam_kw5k"
+    },
+    {
+      "id": "plat_u2vq",
+      "x": -18.42189883726843,
+      "y": 4.111802536033601,
+      "w": 6,
+      "kind": "mid",
+      "z": 0,
+      "deckTex": "/cosmos/kit/plat_deck.webp",
+      "depth": 4.5,
+      "sideTex": "/cosmos/kit/plat_side.webp"
+    }
+  ],
+  "links": [
+    {
+      "a": "plat_3f9b",
+      "b": "plat_517u",
+      "kind": "ladder",
+      "x": -0.7
+    },
+    {
+      "a": "plat_5cql",
+      "b": "plat_3f9b",
+      "kind": "ladder",
+      "x": 5.3
+    },
+    {
+      "a": "plat_u2vq",
+      "b": "plat_gfg7",
+      "kind": "ladder",
+      "x": -18.46
+    },
+    {
+      "a": "plat_5cql",
+      "b": "plat_u2vq",
+      "kind": "ladder",
+      "x": -16.71
+    }
+  ],
+  "spawns": [
+    "plat_gfg7",
+    "plat_517u"
+  ],
+  "skins": {},
+  "layers": [],
+  "decor": [
+    {
+      "id": "crate_talo",
+      "label": "ящик",
+      "type": "crate",
+      "x": 6.5,
+      "y": -0.45,
+      "z": 0.2,
+      "w": 1.05,
+      "h": 1.05,
+      "solid": true
+    },
+    {
+      "id": "crate_dtzl",
+      "label": "ящик",
+      "type": "crate",
+      "x": -9.335114366750865,
+      "y": -0.3846983107668869,
+      "z": 0.15609434005103362,
+      "w": 1.05,
+      "h": 1.05,
+      "solid": true
+    },
+    {
+      "id": "barrel_qn06",
+      "label": "бочка",
+      "type": "barrel",
+      "x": 2.5,
+      "y": 3.4000000000000004,
+      "z": 0.2,
+      "w": 0.96,
+      "h": 1.1,
+      "r": 0.48,
+      "solid": true,
+      "explosive": true
+    },
+    {
+      "id": "crate_by2k",
+      "label": "ящик",
+      "type": "crate",
+      "x": -15.5,
+      "y": 8.05,
+      "z": 0.2,
+      "w": 1.05,
+      "h": 1.05,
+      "solid": true
+    },
+    {
+      "id": "crate_quvz",
+      "label": "ящик",
+      "type": "crate",
+      "x": -5.5,
+      "y": 8.05,
+      "z": 0.2,
+      "w": 1.05,
+      "h": 1.05,
+      "solid": true
+    },
+    {
+      "id": "barrel_otem",
+      "label": "бочка",
+      "type": "barrel",
+      "x": -14,
+      "y": -0.45,
+      "z": 0.2,
+      "w": 0.96,
+      "h": 1.1,
+      "r": 0.48,
+      "solid": true,
+      "explosive": true
+    },
+    {
+      "id": "crate_32nr",
+      "label": "ящик",
+      "type": "crate",
+      "x": 7,
+      "y": 8.05,
+      "z": 0.2,
+      "w": 1.05,
+      "h": 1.05
+    },
+    {
+      "id": "barrel_vubp",
+      "label": "бочка",
+      "type": "barrel",
+      "x": 0.5,
+      "y": 8.05,
+      "z": 0.2,
+      "w": 0.96,
+      "h": 1.1,
+      "r": 0.48,
+      "solid": true,
+      "cryo": true
+    },
+    {
+      "id": "barrel_ztlo",
+      "label": "бочка",
+      "type": "barrel",
+      "x": -3.5,
+      "y": -0.4499999999999993,
+      "z": 0.2,
+      "w": 0.96,
+      "h": 1.1,
+      "r": 0.48,
+      "cryo": true
+    },
+    {
+      "id": "crate_pnrt",
+      "label": "ящик",
+      "type": "crate",
+      "x": -12,
+      "y": -0.45,
+      "z": 0.2,
+      "w": 1.05,
+      "h": 0.4
+    }
+  ],
+  "hidden": [
+    "sup:plat_gfg7",
+    "sup:plat_fekj",
+    "sup:plat_pjf5"
+  ],
+  "waypoints": [
+    {
+      "id": "wp0",
+      "x": -16.5,
+      "y": 0.47,
+      "tag": "centre"
+    },
+    {
+      "id": "wp1",
+      "x": -19.3,
+      "y": 0.47,
+      "tag": "edge"
+    },
+    {
+      "id": "wp2",
+      "x": -13.7,
+      "y": 0.47,
+      "tag": "edge"
+    },
+    {
+      "id": "wp3",
+      "x": 3,
+      "y": 0.47,
+      "tag": "centre"
+    },
+    {
+      "id": "wp4",
+      "x": 0.2,
+      "y": 0.47,
+      "tag": "edge"
+    },
+    {
+      "id": "wp5",
+      "x": 5.8,
+      "y": 0.47,
+      "tag": "edge"
+    },
+    {
+      "id": "wp6",
+      "x": 3,
+      "y": 4.37,
+      "tag": "centre"
+    },
+    {
+      "id": "wp7",
+      "x": -0.3,
+      "y": 4.37,
+      "tag": "edge"
+    },
+    {
+      "id": "wp8",
+      "x": 6.3,
+      "y": 4.37,
+      "tag": "edge"
+    },
+    {
+      "id": "wp9",
+      "x": -7,
+      "y": 5.27,
+      "tag": "centre"
+    },
+    {
+      "id": "wp10",
+      "x": -9.3,
+      "y": 5.27,
+      "tag": "edge"
+    },
+    {
+      "id": "wp11",
+      "x": -4.7,
+      "y": 5.27,
+      "tag": "edge"
+    },
+    {
+      "id": "wp12",
+      "x": -17,
+      "y": 4.38,
+      "tag": "centre"
+    },
+    {
+      "id": "wp13",
+      "x": -18.8,
+      "y": 4.38,
+      "tag": "edge"
+    },
+    {
+      "id": "wp14",
+      "x": -15.2,
+      "y": 4.38,
+      "tag": "edge"
+    },
+    {
+      "id": "wp15",
+      "x": -6.25,
+      "y": 8.97,
+      "tag": "perch"
+    },
+    {
+      "id": "wp16",
+      "x": -18.8,
+      "y": 8.97,
+      "tag": "edge"
+    },
+    {
+      "id": "wp17",
+      "x": 6.3,
+      "y": 8.97,
+      "tag": "edge"
+    }
+  ]
+}
